@@ -8,3 +8,30 @@ p {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
+
+a {
+    margin: 20px;
+    padding: 10px;
+}
+
+a {
+    cursor: alias;
+    text-decoration: none;
+}
+
+a:visited {
+    color: red;
+}
+
+a:active {
+    color: blue;
+    border-radius: 50px;
+    background-color: red;
+}
+
+a:hover {
+    color: white;
+    background-color: black;
+    border-radius: 50px;
+}
+
